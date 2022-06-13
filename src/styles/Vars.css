@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Ubuntu:wght@300;400;700&display=swap');
+
+:root{
+    --title:'Quicksand', sans-serif;
+    --text:'Ubuntu', sans-serif;
+    --degrade:linear-gradient(70deg,rgba(208, 125, 0, 1),rgba(66, 0, 255, 1));
+}

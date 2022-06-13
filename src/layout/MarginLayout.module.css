@@ -1,0 +1,11 @@
+.Margin{
+    margin-right: calc(1rem + 2vw);
+    margin-left: calc(1rem + 2vw);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Center{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,15 @@
+html{
+    min-height: 100%;
+    overflow-y: hidden;
+}
+body{
+    background:linear-gradient(156deg,rgba(0, 32, 66, 1),rgba(69, 20, 55, 1));
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
