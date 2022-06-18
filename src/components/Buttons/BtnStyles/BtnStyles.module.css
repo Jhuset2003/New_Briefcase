@@ -1,0 +1,48 @@
+@import url("../../../styles/Vars.css");
+.BtnContainer{
+    width: auto;
+    margin: 15px 5px 15px 5px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.BtnContent{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    background: linear-gradient(90deg,rgb(136, 136, 136),rgb(51, 0, 145));
+    padding: 10px 10px 10px 10px;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.BtnContent i{
+    font-size: calc(40px + 2vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    transition: 0.3s;
+}
+.BtnContent p{
+    font-size: calc(15px + 2vw);
+    color: white;
+    transition: 0.3s;
+}
+.BtnContent:hover i{
+    color: rgb(167, 0, 0);
+    font-size: 80px;
+}
+.BtnContent:hover p{
+    color: rgb(167, 0, 0);
+}
+
+.BtnContent:active{
+   border:3px solid red ;
+}
+

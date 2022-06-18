@@ -1,0 +1,5 @@
+.WaveContainer{
+    transform: rotate(180deg);
+    height: 54px;
+    margin-bottom: 10px;
+}
