@@ -6,11 +6,12 @@
     position: fixed;
     bottom: 0;
     left: 0;
+    height: 35px;
 }
 .Footer::before{
     content: "";
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     position: absolute;
     bottom: 0;
     margin-left:auto;

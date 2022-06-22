@@ -1,8 +1,18 @@
 import React from 'react'
+import MarginLayout from "../layout/MarginLayout"
+
 
 function Home() {
   return (
-    <div >Hola Mundo</div>
+   <>
+   <MarginLayout>
+      <div>
+        <h1>Portafolio Virtual</h1>
+        <h2>Albert Quintanilla </h2>
+        
+      </div>
+   </MarginLayout>
+   </>
   )
 }
 
