@@ -1,0 +1,19 @@
+.LettersContainer{
+    text-align: center;
+}
+.LettersContainer h2{
+    color: #00eeff;
+}
+.LogContainer{
+    text-align: center;
+    
+}
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.Text {
+    font-size: 20px;
+}

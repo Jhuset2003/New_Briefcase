@@ -1,14 +1,15 @@
 @import url("./Vars.css");
 
 html{
-    min-height: 100%;
+    min-height: 100vh;
     overflow-y: hidden;
 }
 body{
-    background-color: rgb(189, 189, 189);
+    background-color: rgb(11, 0, 53);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100%;
+    min-height: 100vh;
+    color: white;
     
 }
 body p,span{

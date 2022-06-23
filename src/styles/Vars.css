@@ -3,6 +3,6 @@
 :root{
     --title:'Quicksand', sans-serif;
     --text:'Ubuntu', sans-serif;
-    --degrade:linear-gradient(70deg,rgba(208, 125, 0, 1),rgba(66, 0, 255, 1))1;
+    --degrade:linear-gradient(70deg,rgb(0, 14, 208),rgb(0, 238, 255))1;
     --blur:blur(2px) opacity(0.2);
 }
