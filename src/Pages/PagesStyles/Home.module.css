@@ -1,19 +1,33 @@
 .LettersContainer{
     text-align: center;
+
 }
 .LettersContainer h2{
     color: #00eeff;
+    font-size: 30px;
+    text-decoration: underline;
 }
 .LogContainer{
     text-align: center;
     
 }
-
+.LogContainer img{
+    border: 20px solid black;
+    border-radius: 50%;
+}
 .Container{
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    height: 75vh;
+    justify-content: space-between;
+    overflow: scroll;
+    
+}
+.Container::-webkit-scrollbar{
+    display: none;
 }
 .Text {
     font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }

@@ -44,7 +44,7 @@
   margin-right: auto;
   left: 0;
   right: 0;
-  z-index: 10;
+  z-index: 1;
   position: absolute;
   border-radius: 5px;
   display: flex;
@@ -57,7 +57,7 @@
   padding: 0;
   height: 0;
   opacity: 0;
-  width: 100%;
+  width: 50%;
 }
 
 .dropdown_item_list.active {
@@ -69,12 +69,12 @@
   margin-right: auto;
   left: 0;
   right: 0;
-  width: 100%;
+  width: 50%;
   height: 29rem;
   transform: translateY(-70%);
   visibility: inherit;
   opacity: 1;
-  z-index: 20;
+  z-index: 1;
 }
 
 .item_list {

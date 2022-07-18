@@ -21,7 +21,6 @@ function CellMenu({ items = [], dropdownTitle }) {
   };
 
   const keyHandler = (event) => {
-    // console.log(event);
     if (event.key === "Escape" && isOpen) {
       setIsOpen(false);
     }
@@ -66,7 +65,7 @@ function CellMenu({ items = [], dropdownTitle }) {
             : [
               location.pathname === "/" ?
               <BiHomeAlt/>:
-              location.pathname === "/About" ? 
+              location.pathname === "/AboutMe" ? 
               <FaInfoCircle/>:
               location.pathname === "/Works" ?
               <MdWork/>:

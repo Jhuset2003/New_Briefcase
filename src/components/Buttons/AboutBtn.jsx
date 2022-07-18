@@ -6,7 +6,7 @@ import { FaInfoCircle } from 'react-icons/fa';
 function AboutBtn() {
   return (
     <div className={BtnStyles.BtnContainer}>
-      <NavLink to="/About" className={BtnStyles.BtnContent}>
+      <NavLink to="/AboutMe" className={BtnStyles.BtnContent}>
         <i><FaInfoCircle/></i>
         <p>Acerca de mi</p> 
       

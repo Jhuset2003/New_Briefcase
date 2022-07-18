@@ -9,7 +9,7 @@ function Home() {
    <MarginLayout>
     <div className={HomeStyles.Container}>
       <div className={HomeStyles.LettersContainer}>
-        <h1>Portafolio Virtual</h1>
+        <h1>Bienvenido A Mi Portafolio Virtual</h1>
         <h2>Albert Quintanilla </h2>
       </div>
       <div className={HomeStyles.LogContainer}>
@@ -17,7 +17,7 @@ function Home() {
       </div>
       <div>
         <p className={HomeStyles.Text}>
-          Desallorrador <strong> FrontEnd</strong> ambicioso y siempre dispuesto a aprender
+          Desallorrador web FullStack especializado en <strong>FrontEnd</strong>  ambicioso y siempre dispuesto a aprender
         </p>
       </div>
     </div>

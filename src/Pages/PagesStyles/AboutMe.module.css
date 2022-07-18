@@ -1,0 +1,15 @@
+.CardContainer{
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    overflow: scroll;
+    width: 100%;
+}
+.CardContainer::-webkit-scrollbar{
+    display: none;
+}
+.letter{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
