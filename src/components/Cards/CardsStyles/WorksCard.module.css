@@ -1,0 +1,31 @@
+.container{
+    width: 100%;
+}
+.WorkCard{
+    width: 80vw;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.title{
+    text-align: center;
+}
+.links{
+    visibility: initial;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.WorkCard:hover .links{
+    visibility: initial;
+}
+.img {
+    width: 100%;
+    height: 100px;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}

@@ -14,7 +14,20 @@
 .LogContainer img{
     border: 20px solid black;
     border-radius: 50%;
+    width: 17rem;
+    height: 17rem;
+    margin: 20px 0 20px 0 ;
+    animation: infinite;
+    animation-name: road;
+    animation-duration: 4s;
+    animation-direction: alternate;
 }
+@keyframes road{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
 .Container{
     display: flex;
     flex-direction: column;

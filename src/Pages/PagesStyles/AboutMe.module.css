@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     height: 75vh;
-    overflow: scroll;
+    overflow-y: scroll;
     width: 100%;
+    overflow-x: hidden;
 }
 .CardContainer::-webkit-scrollbar{
     display: none;
