@@ -1,4 +1,4 @@
-.CardContainer{
+.CardContainerY{
     display: flex;
     flex-direction: column;
     height: 75vh;
@@ -6,11 +6,13 @@
     width: 100%;
     overflow-x: hidden;
 }
-.CardContainer::-webkit-scrollbar{
+.CardContainerY::-webkit-scrollbar{
     display: none;
 }
 .letter{
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
+    margin-top: -22px;
+
 }

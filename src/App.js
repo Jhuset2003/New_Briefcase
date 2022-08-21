@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import Nav from './components/Nav/Nav';
 import AboutMe from './Pages/AboutMe';
 import Works from './Pages/Works';
+import CV from './Pages/CV';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Route path='/' element={<Home/>} />
             <Route path='/AboutMe' element={<AboutMe/>} />
             <Route path='/Works' element={<Works/>} />
+            <Route path='/CV' element={<CV/>} />
           </Routes>
 
           <Footer/>

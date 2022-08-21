@@ -1,8 +1,9 @@
 .container{
     width: 100%;
+    height: 70vh;
 }
 .WorkCard{
-    width: 80vw;
+    width: 90vw;
     overflow-x: hidden;
     display: flex;
     flex-direction: column-reverse;
@@ -10,22 +11,91 @@
 }
 .title{
     text-align: center;
+    margin-top: 10px;
 }
 .links{
-    visibility: initial;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
+.links a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+    
+}
+.links a:nth-child(1){
+    background-color: aqua;
+}
+.links a:nth-child(2){
+    background-color: white;
+}
+.links a h4{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    gap: 10px;
+}
+.links a i{
+    display: flex;
+    align-self: center;
+    font-size: 25px;
+}
+
 .WorkCard:hover .links{
     visibility: initial;
 }
 .img {
     width: 100%;
-    height: 100px;
+    height: 150px;
 }
 .img img{
     width: 100%;
     height: 100%;
+}
+.modal {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 50;
+    background-color: rgba(37, 37, 37, 0.362);
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+.modal img{
+    width: 80%;
+    height: 80%;
+
+}
+.Line{
+    width: 100%;
+    height: 4px;
+    background-color: rgb(16, 0, 163);
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.CloseIcon{
+    display: flex;
+    width: 80%;
+    height: 30px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+.CloseIcon svg{
+    font-size: 25px;
+}
+.CloseIcon svg:hover{
+    color: rgba(0, 238, 255);
 }
